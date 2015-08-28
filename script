@@ -1,0 +1,5 @@
+DELETE FROM adm_cnv_rfc_arr WHERE rfc_id_obj = '001o000000bRyju';
+DELETE FROM adm_rfc_log WHERE rfc_objid = '001o000000bRyju';
+DELETE FROM trx_sfms_cnt WHERE idcnt_id  = '001o000000bRyju';
+DELETE FROM trx_sfms_tmp WHERE sfms_objid = '001o000000bRyju';
+DELETE FROM trx_sfms_xml WHERE ms_xml_cont like '%001o000000bRyju%';
